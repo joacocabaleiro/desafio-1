@@ -5,7 +5,7 @@ function calcularCuota(precio){
     else {
         return precio*0.005;
     }
-}    
+}
 alert ("La cuota a pagar por mes es de:" + calcularCuota(carPrice))
 let metodoDePago=prompt("Ingrese el metodo de pago que desea utilizar: debito/credito/transferencia/efectivo")
 switch (metodoDePago.toLowerCase()){
@@ -18,7 +18,7 @@ switch (metodoDePago.toLowerCase()){
     case "efectivo":
         console.log("Tendra un descuento del 10%, debera acercarse a la oficina")
         break
-    case "tranferencia":
+    case "transferencia":
         console.log("Por el momento no trabajamos con transferencia")
     default:
         console.warn("Algo salio mal, recargue la pagina y vuelva a intentarlo. REVISE LA ORTOGRAFIA")
